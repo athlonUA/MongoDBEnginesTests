@@ -40,3 +40,42 @@ MongoDB Connection Tools: Pymongo 3.2
 | mmapv1      | 10K                 | insert_many()      | 0:00:00.219049 |
 | mmapv1      | 100K                | insert_many()      | 0:00:02.322669 |
 | mmapv1      | 1M                  | insert_many()      | 0:00:24.511715 |
+
+
+***
+
+##Insert method - insert_one()
+
+- `insert_one results`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_one.png)
+
+- `insert_one results - 1K (scaling)`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_one_1K.png)
+
+- `insert_one results - 10K (scaling)`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_one_10K.png)
+
+- `insert_one results - 100K (scaling)`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_one_100K.png)
+
+- `insert_one results - 1M (scaling)`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_one_1M.png)
+
+***
+
+##Insert method - insert_many()
+
+- `insert_many results`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_many.png)
+
+- `insert_many results - 1K (scaling)`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_many_1K.png)
+
+- `insert_many results - 10K (scaling)`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_many_10K.png)
+
+- `insert_many results - 100K (scaling)`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_many_100K.png)
+
+- `insert_many results - 1M (scaling)`
+![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_many_1M.png)
