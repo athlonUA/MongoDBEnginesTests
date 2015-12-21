@@ -51,41 +51,41 @@ MongoDB Connection Tools: Pymongo 3.2
 
 - `insert_one results - 1K (y-scaling)`
 
-| Engine      | time           |
-| ----------- | -------------- |
-| inMemory    | 0:00:00.256019 |
-| wiredTiger  | 0:00:00.262877 |
-| mmapv1      | 0:00:00.258589 |
+  | Engine      | time           |
+  | ----------- | -------------- |
+  | inMemory    | 0:00:00.256019 |
+  | wiredTiger  | 0:00:00.262877 |
+  | mmapv1      | 0:00:00.258589 |
 
 ![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_one_1K.png)
 
 - `insert_one results - 10K (y-scaling)`
 
-| Engine      | time           |
-| ----------- | -------------- |
-| inMemory    | 0:00:02.555137 |
-| wiredTiger  | 0:00:02.622586 |
-| mmapv1      | 0:00:02.719752 |
+  | Engine      | time           |
+  | ----------- | -------------- |
+  | inMemory    | 0:00:02.555137 |
+  | wiredTiger  | 0:00:02.622586 |
+  | mmapv1      | 0:00:02.719752 |
 
 ![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_one_10K.png)
 
 - `insert_one results - 100K (y-scaling)`
 
-| Engine      | time           |
-| ----------- | -------------- |
-| inMemory    | 0:00:25.371257 |
-| wiredTiger  | 0:00:26.450679 |
-| mmapv1      | 0:00:27.077982 |
+  | Engine      | time           |
+  | ----------- | -------------- |
+  | inMemory    | 0:00:25.371257 |
+  | wiredTiger  | 0:00:26.450679 |
+  | mmapv1      | 0:00:27.077982 |
 
 ![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_one_100K.png)
 
 - `insert_one results - 1M (y-scaling)`
 
-| Engine      | time           |
-| ----------- | -------------- |
-| inMemory    | 0:04:25.501858 |
-| wiredTiger  | 0:04:25.172383 |
-| mmapv1      | 0:04:21.461826 |
+  | Engine      | time           |
+  | ----------- | -------------- |
+  | inMemory    | 0:04:25.501858 |
+  | wiredTiger  | 0:04:25.172383 |
+  | mmapv1      | 0:04:21.461826 |
 
 ![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_one_1M.png)
 
@@ -98,40 +98,40 @@ MongoDB Connection Tools: Pymongo 3.2
 
 - `insert_many results - 1K (y-scaling)`
 
-| Engine      | time           |
-| ----------- | -------------- |
-| inMemory    | 0:00:00.025174 |
-| wiredTiger  | 0:00:00.025317 |
-| mmapv1      | 0:00:00.023795 |
+  | Engine      | time           |
+  | ----------- | -------------- |
+  | inMemory    | 0:00:00.025174 |
+  | wiredTiger  | 0:00:00.025317 |
+  | mmapv1      | 0:00:00.023795 |
 
 ![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_many_1K.png)
 
 - `insert_many results - 10K (y-scaling)`
 
-| Engine      | time           |
-| ----------- | -------------- |
-| inMemory    | 0:00:00.223759 |
-| wiredTiger  | 0:00:00.246260 |
-| mmapv1      | 0:00:00.219049 |
+  | Engine      | time           |
+  | ----------- | -------------- |
+  | inMemory    | 0:00:00.223759 |
+  | wiredTiger  | 0:00:00.246260 |
+  | mmapv1      | 0:00:00.219049 |
 
 ![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_many_10K.png)
 
 - `insert_many results - 100K (y-scaling)`
 
-| Engine      | time           |
-| ----------- | -------------- |
-| inMemory    | 0:00:02.304617 |
-| wiredTiger  | 0:00:02.494182 |
-| mmapv1      | 0:00:02.322669 |
+  | Engine      | time           |
+  | ----------- | -------------- |
+  | inMemory    | 0:00:02.304617 |
+  | wiredTiger  | 0:00:02.494182 |
+  | mmapv1      | 0:00:02.322669 |
 
 ![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_many_100K.png)
 
 - `insert_many results - 1M (y-scaling)`
 
-| Engine      | time           |
-| ----------- | -------------- |
-| inMemory    | 0:00:25.498137 |
-| wiredTiger  | 0:00:27.500170 |
-| mmapv1      | 0:00:24.511715 |
+  | Engine      | time           |
+  | ----------- | -------------- |
+  | inMemory    | 0:00:25.498137 |
+  | wiredTiger  | 0:00:27.500170 |
+  | mmapv1      | 0:00:24.511715 |
 
 ![insert_one](https://raw.github.com/athlonUA/MongoDBEnginesTests/master/img/insertProcess/insert_many_1M.png)
